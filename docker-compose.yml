@@ -21,6 +21,6 @@ services:
     ports:
       - "8080:8080"
     env_file:
-      - .env.prod
+      - .env
     volumes:
       - ./images:/home/images
